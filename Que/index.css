@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    background-image: url('./Imegers/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+.Links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+.Call {
+    color: white;
+}
+.Holmes{
+    color: orange;
+    font-size: 14px;
+    text-decoration: none;
+}
+.Home{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    width: 250px;
+    font-weight: 900;
+}
+.Info{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.Info span {
+    margin-left: 6px;
+    margin-right: 50px;
+}
+.Last{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    width: 500px;
+}
+.Text{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0;
+}
+button {
+    padding: 20px 45px;
+    background-color:  #F28A0F;
+    border-radius: 65px;
+    border: none; 
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+main {
+    padding-left: 900px;
+    padding-top: 65px
+}
+footer { 
+    margin-top: 250px;
+}
