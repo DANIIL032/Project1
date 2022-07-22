@@ -17,7 +17,7 @@ button {
     border-radius: 50%;
     margin-left: 20px;
 }
-footer {
+main {
     display: flex;
     justify-content: center;
 }
@@ -34,4 +34,68 @@ footer {
 }
 .Lap img, .Repeat img {
     filter: invert(0.5)
+}
+.Day {
+    border: none;
+    background-color: rgba(240, 255, 255, 0.863);
+}
+.Day img {
+    padding: 10px;
+    border-radius: 4px;
+}
+.Day__Selected {
+    border: 2px solid  rgb(4, 252, 252);
+}
+footer { 
+    margin-top: 200px;
+    text-align: center;
+}
+.Bell {
+    border: none; 
+    background-color: rgba(240, 255, 255, 0.863); 
+}
+.Track {
+    font-size: 10px;
+    font-weight: 10;
+    color: rgb(25, 195, 207);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Time {
+    font-size: 10px;
+    font-weight: 10;
+    color: rgb(167, 167, 167);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Flag {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    margin-top: 50px;
+    visibility: hidden;
+}
+.Time h1, Track h1 {
+    flex-grow: 1;
+}
+.Track-time {
+    text-align: center;
+    margin-left: 10%;
+}
+.Total-time {
+    text-align: right;
+}
+
+#time {
+    font-size: 50px;
+    font-weight: 40;
+    color: rgb(167, 167, 167);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: rgba(240, 255, 255, 0.863);
 }
